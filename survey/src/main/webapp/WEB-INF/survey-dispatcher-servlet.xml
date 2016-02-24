@@ -55,7 +55,7 @@
 				<prop key="hibernate.show_sql">${hibernate.showSql}</prop>
 			</props>
 		</property>
-		<property name="packagesToScan" value="com.adb.survey.entity"></property>
+		<property name="packagesToScan" value="com.adb.survey.Entity"></property>
 	</bean>
 
 	<!-- Transaction -->

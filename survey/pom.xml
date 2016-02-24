@@ -51,7 +51,7 @@
 			<version>${spring.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- json -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -69,7 +69,7 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.6.3</version>
 		</dependency>
-		
+
 		<!-- Hibernate 4 dependencies -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -82,7 +82,7 @@
 			<artifactId>hibernate-c3p0</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
-		
+
 		<!-- Database connection pool -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -98,11 +98,13 @@
 		</dependency>
 
 		<!--MYSQL Connector -->
+		
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.version}</version>
 		</dependency>
+
 
 		<!-- Servlet and JSP -->
 		<dependency>
